@@ -20,7 +20,7 @@
 - Image positioning using CSS positioning and z-indexing.
 - Tag and attribute based selection of HTML elements.
 - Button styling with transparent background.
-- Media queries for responsiveness.
+- Media queries for all device responsive.
 
 ### Screenshot
 
