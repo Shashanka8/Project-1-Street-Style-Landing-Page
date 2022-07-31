@@ -1,5 +1,5 @@
 ![made-with-HTML](https://img.shields.io/badge/Made%20with-HTML%20&%20CSS-blue?style=for-the-badge)
-![Time taken](https://img.shields.io/badge/Time%20taken-01H%3A00M%3A00S-tomato?style=for-the-badge&logo=Clockify)
+![Time taken](https://img.shields.io/badge/Time%20taken-01H%3A30M%3A00S-tomato?style=for-the-badge&logo=Clockify)
 [![Demo](https://img.shields.io/badge/See%20Demo-Visit-green?style=for-the-badge&logo=web)](https://ssn-project01.netlify.app)
 
 # Street Style Landing Page
@@ -17,17 +17,18 @@
 ### Skills Gained from this
 
 - Navbar using CSS flexbox.
-- Image poistioning uisng CSS positioning and z-indexing.
-- Tag and attruibute based selection og HTML elements.
+- Image positioning using CSS positioning and z-indexing.
+- Tag and attribute based selection of HTML elements.
 - Button styling with transparent background.
+- Media queries for responsiveness.
 
 ### Screenshot
 
-![7](./screenshot.png)
+![1](./screenshot.png)
 
 ## Device support
 
-This webpage is compatible with desktop screen only, and consistent improvements are being made.
+This webpage is compatible with desktop/tablet/mobile screens, and consistent improvements are being made.
 
 ## Author
 

@@ -158,3 +158,138 @@ img[alt="person-hero-image"] {
   height: 40px;
   padding: 0 10px;
 }
+
+@media screen and (max-width: 1199px) {
+  .container {
+    padding: 2% 3%;
+  }
+  .list-item {
+    font-size: 18px;
+    padding: 0 20px;
+    font-weight: 500;
+  }
+  .list-item:first-child {
+    font-size: 20px;
+  }
+  .hero-container *:nth-child(5) {
+    width: 40%;
+  }
+  img[alt="person-hero-image"] {
+    padding-top: 36px;
+    height: 50%;
+  }
+  .square {
+    left: 0;
+    top: 18%;
+  }
+  .square img {
+    height: 360px;
+  }
+  .globe {
+    left: 40%;
+    transform: scale(0.7);
+  }
+  .star {
+    right: 1%;
+    top: 7%;
+    transform: scale(0.7);
+  }
+  .star2 {
+    left: 40%;
+    bottom: 18%;
+    transform: scale(0.5);
+  }
+  .hero-container-right {
+    padding-top: 120px;
+    width: 600px;
+  }
+  .hero-heading {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .list {
+    display: none;
+  }
+  img[alt="brand-logo"] {
+    height: 40px;
+  }
+  .search-icon {
+    transform: scale(0.6);
+  }
+  .nav-button {
+    padding: 3px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  .hero-container *:nth-child(5) {
+    width: 42%;
+  }
+  img[alt="person-hero-image"] {
+    height: 45%;
+  }
+  .square img {
+    height: 300px;
+  }
+  .hero-container-right {
+    padding-top: 90px;
+  }
+  .hero-heading {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    overflow: auto;
+  }
+  .hero-container {
+    flex-direction: column;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  img[alt="person-hero-image"] {
+    height: 500px;
+  }
+  .square img {
+    height: 400px;
+  }
+  .square {
+    left: 12%;
+    top: 19%;
+  }
+  .globe,
+  .star,
+  .star2 {
+    display: none;
+  }
+  .hero-container-right {
+    width: 100%;
+    padding: 60px 0;
+  }
+  .hero-heading {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-container {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  img[alt="person-hero-image"] {
+    height: 380px;
+  }
+  .square img {
+    height: 340px;
+  }
+  .square {
+    left: 8%;
+    top: 14%;
+  }
+  .hero-heading {
+    font-size: 40px;
+  }
+}
